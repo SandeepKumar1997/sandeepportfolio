@@ -1,11 +1,4 @@
-import {
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  deloitte,
-  dxc,
-} from "../assets/images";
+import { deloitte, dxc, MOvix, NextGen, PromptPedia } from "../assets/images";
 import {
   car,
   contact,
@@ -198,8 +191,7 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl:
-      "https://media.licdn.com/dms/image/D562DAQGn95v5pFHksQ/profile-treasury-image-shrink_800_800/0/1685874808917?e=1713474000&v=beta&t=CL5YK7WgNFGERu4HGHNBNB7F8oYqnDHOxNkyiADhUg4",
+    iconUrl: MOvix,
     theme: "btn-back-red",
     name: "MoviePedia: Interactive Movie Exploration",
     description:
@@ -207,8 +199,7 @@ export const projects = [
     link: "https://movie-pedia-henna.vercel.app/",
   },
   {
-    iconUrl:
-      "https://media.licdn.com/dms/image/sync/D5627AQEvF7RMozgbcw/articleshare-shrink_800/0/1711874345896?e=1713474000&v=beta&t=8h1Pz3xQsiyWEF-ebPWwFTxhbKy9f981Bq1KRLyZuPw",
+    iconUrl: NextGen,
     theme: "btn-back-green",
     name: "NextGen GPT-Blogger",
     description:
@@ -216,8 +207,7 @@ export const projects = [
     link: "https://nextjs-blog-app-six-alpha.vercel.app/",
   },
   {
-    iconUrl:
-      "https://media.licdn.com/dms/image/D562DAQH5kqKGwUDMaQ/profile-treasury-image-shrink_800_800/0/1686330218417?e=1713474000&v=beta&t=9yXQidX4IEriVgq-Ge4U1dp55a0rdvvCiOvblYtNWbo",
+    iconUrl: PromptPedia,
     name: "PromtPedia",
     description:
       "PromptPedia, a Next.js 13 project, pioneers file-based, dynamic, and nested routing, balancing server and client components. It enhances SEO and utilizes SSR, SSG, and ISR for efficient data fetching. Leveraging serverless route handlers for Full Stack Apps and Next API, it additionally manages special files for seamless UX.",
